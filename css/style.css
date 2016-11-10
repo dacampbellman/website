@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+.header-paralax {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    width: 100%;
+position: fixed;
+    height: 100%;
+}
+
+.header-paralax h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 1px #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding: 210px 0;
+}
+
+section {
+
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    top: 600px;
+
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.home {
+  width: 100%;
+  
+  background-color: blue;
+  padding: 0 20px;
+}
+
+.home h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.ImageOne {
+  background-image: url(../images/iamgeone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+
+}
+.TextBox {
+  width: 500px;
+  height: 300px;
+}
+.TextBox p {
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 250px;
+  padding-left: 20px;
+
+}
+
+.ImageTwo {
+  background-image: url(../images/Lucid.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.Info {
+  background-color: Grey;
+  width: 80%;
+  margin: auto;
+  height: 650px;
+
+}
+.Words p {
+  width: 50%;
+  margin-top: 10px;
+  float: left;
+}
+
+.imagery {
+  width: 450px;
+  height: 350px;
+}
+.Four img {
+  float: left;
+  width: 25%;
+  height: 500px;
+}
